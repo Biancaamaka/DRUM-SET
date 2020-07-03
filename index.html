@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRUM KIT</title>
+    <link rel="stylesheet" href ="drum.css">
+</head>
+<body>
+  <marquee>
+    DRUM SET
+  </marquee>
+    <div class="keys">
+        <div key="q" class="key">
+          <kbd>Q</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div key="w" class="key">
+          <kbd>W</kbd>
+          <span class="sound">hihat</span>
+        </div>
+        <div key="e" class="key">
+          <kbd>E</kbd>
+          <span class="sound">kick</span>
+        </div>
+        <div key="r" class="key">
+          <kbd>R</kbd>
+          <span class="sound">openhat</span>
+        </div>
+        <div key="t" class="key">
+          <kbd>T</kbd>
+          <span class="sound">boom</span>
+        </div>
+        <div key="y" class="key">
+          <kbd>Y</kbd>
+          <span class="sound">ride</span>
+        </div>
+        <div key="u" class="key">
+          <kbd>U</kbd>
+          <span class="sound">snare</span>
+        </div>
+        <div key="i" class="key">
+          <kbd>I</kbd>
+          <span class="sound">tom</span>
+        </div>
+        <div key="o" class="key">
+          <kbd>O</kbd>
+          <span class="sound">tink</span>
+        </div>
+      </div>
+
+  <audio data-key="81" src="sounds/clap.wav" key ="q"></audio>
+  <audio data-key="87" src="sounds/hihat.wav" key ="w"></audio>
+  <audio data-key="69" src="sounds/kick.wav" key ="e"></audio>
+  <audio data-key="82" src="sounds/openhat.wav" key= "r"></audio>
+  <audio data-key="84" src="sounds/boom.wav" key = "t"></audio>
+  <audio data-key="89" src="sounds/ride.wav" key = "y"></audio>
+  <audio data-key="85" src="sounds/snare.wav" key ="u"></audio>
+  <audio data-key="73" src="sounds/tom.wav"  key = "i"></audio>
+  <audio data-key="79" src="sounds/tink.wav" key ="o"></audio>
+
+  <script src ="drum.js"></script>
+</body>
+</html>
